@@ -1,0 +1,262 @@
+
+
+body
+{
+	font-family: 'Montserrat', sans-serif ;
+	scroll-behavior: smooth ;
+    padding-top: 50px;  	
+}
+
+.navbar-brand
+{
+	margin-left: 5% ;
+}
+.navbar .navbar-collapse 
+{
+	margin-right: 7% ; 
+}
+
+.navbar .navbar-collapse .navbar-nav li a, h2, h5
+{
+	font-weight: 800 ;
+}
+
+.nav-item
+{
+	padding: 0 5px;	
+}
+
+ nav
+{
+	background-color: #e8ecfa ;
+}
+
+
+/*nav 
+{
+	  background: white; 
+}
+*/
+.logo-img 
+{
+/*	margin-top: 5% ; */
+	width: 20%;
+	transition: 0.4s;
+}
+
+
+#head
+{
+  background-image: -webkit-linear-gradient(90deg, #A683E3 10%, #E4E9FD 70%);
+  min-height: 500px;
+}
+
+.testimonial-text
+{
+	font-size: 3rem ;
+	line-height: 1.5 ;
+}
+.carousel-item
+{
+		padding: 7% 1%;
+}
+.testimonial-carousel .carousel-control::before {
+    color: black;
+}
+.testimonial-carousel .carousel-control {
+  opacity: unset;
+}
+.pib
+{
+	width: 100% ;
+
+	margin-right: 50px;
+}
+.data 
+{
+	height: 250px ; 
+	width: 250px ; 
+	margin: auto;
+}
+
+
+#features
+{
+	background-color: 	#A683E3 ;
+	color: black ;
+	text-align: center;
+}
+
+.features-div i
+{
+	font-size: 250%;
+    font-weight: 300;
+    color: #9d7cd6 ;
+}
+
+
+
+@media (max-width: 1024px){
+	a.navbar-brand {
+  		display: contents;
+		}
+
+	.data
+	{
+		height: 27rem ;
+		width: 27rem;
+	}
+	body 
+	{
+		text-align: center ;
+	}
+	.data
+	{
+		margin-top:20%;
+	}
+	.logo-img
+	{
+		width:35%;
+	}
+.inner-logo-img
+{
+	width: 1100%;
+}
+
+
+}
+
+.features-div
+{
+	/*padding: 8%;*/
+    margin: 8%; 
+    width: 15rem; height:15rem;
+	text-align: center;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+    background-color:  black ; 
+    color: white ;
+}
+
+
+.features-div:hover
+{
+	margin-top: -10px;
+}
+
+
+@media only screen and (max-width: 560px) 
+{
+	.features-div
+	{
+  /*	padding: 8%;*/
+    margin: 8%; 
+    width: 20rem; 
+    height:16rem;
+
+	}
+}
+
+
+.container-fluid
+{
+	padding: 3% 12% ;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #000000;
+}
+@media only screen and (min-width: 960px) {
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.7em;
+  }
+}
+.navbar .navbar-nav .nav-link {
+  position: relative;
+}
+.navbar .navbar-nav .nav-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #000000;
+  color: transparent;
+  width: 0%;
+  content: '';
+  height: 3px;
+  transition: all 0.5s;
+}
+.navbar .navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+
+#about 
+{
+
+	background-image: -webkit-linear-gradient(90deg, #E4E9FD 10%, #A683E3 90%);
+	  min-height: 600px;
+
+} 
+
+.about
+{		text-align: left; 
+		border:7px solid #000;
+		padding: 1% ;
+}
+
+.abt-img
+{
+	width: 80% ;
+	padding: 10% ;
+}
+
+.abt-logo-img
+{
+	text-align: center ;
+	padding: 5% ;
+}
+
+.abt-logo-img .logo-img
+{
+	width: 30%
+}
+
+footer
+{
+	background-color: #E4E9FD ;
+}
+
+.footer-d 
+{
+	margin-top:2% ;
+	color: black ; 
+}
+
+
+.footer-data
+{
+  padding: 2% 12% 2% ;
+  text-align: center ;
+}
+
+.foot-i, .btn.foot-i
+{
+  padding: 10px 10px ;
+  font-size:1.5em ;
+}
+
+.footer-data.col-md-6.btn.foot-i:hover
+{
+font-size:3em ;	
+} 
